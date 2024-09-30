@@ -1,0 +1,12 @@
+Descripción del Proyecto: Sistema de Gestión de Inventario
+El Sistema de Gestión de Inventario es una aplicación diseñada para facilitar el control y manejo de inventarios en pequeñas empresas o para particulares que necesiten un método sencillo para administrar sus productos. El sistema tiene un enfoque en la facilidad de uso y la intuitividad, permitiendo a los usuarios gestionar productos, categorías y proveedores de manera eficiente sin necesidad de conocimientos técnicos avanzados.
+
+Entre las funcionalidades principales se incluyen:
+
+CRUD de productos: Permite agregar, modificar, eliminar y consultar productos almacenados.
+Gestión de categorías: Clasificación de productos por categorías, facilitando la organización.
+Control de stock: Monitoreo en tiempo real de las existencias, evitando problemas de sobreabastecimiento o faltantes.
+Generación de reportes: Capacidad de crear reportes que muestren las tendencias y cambios en las últimas semanas o meses en el stock, precio o ventas.
+Multiusuario: Sistema con soporte para múltiples usuarios con diferentes niveles de acceso, ideal para equipos pequeños o negocios familiares.
+Simplicidad: Interfaz amigable y un flujo de trabajo optimizado para que cualquier persona pueda utilizarlo con facilidad.
+Este proyecto busca ser una herramienta accesible para personas sin experiencia técnica que deseen mantener un control ordenado y eficiente de su inventario.
