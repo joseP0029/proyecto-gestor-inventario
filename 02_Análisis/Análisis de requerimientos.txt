@@ -1,4 +1,4 @@
-## Análisis de Requerimientos
+Análisis de Requerimientos
 Este análisis describe las necesidades del sistema, enfocándose en lo que el usuario final espera de la aplicación.
 
 OBJETIVOS DEL SISTEMA:
@@ -12,7 +12,7 @@ REQUERIMIENTOS FUNCIONALES
 Estos son los requerimientos que definen las funciones y comportamientos que el sistema debe ofrecer.
 
 Gestión de productos: 
-RF1: El sistema debe permitir la creación de nuevos productos con campos como nombre, descripción, precio, cantidad en stock, categoría y proveedor.
+RF1: El sistema debe permitir la creación de nuevos productos con campos como nombre, descripción, precio, cantidad en stock, categoría y proveedor, etc.
 RF2: Los usuarios deben poder consultar la lista de productos, filtrando por categoría, proveedor o estado de stock.
 RF3: El sistema debe permitir la modificación de la información de un producto existente.
 RF4: El sistema debe permitir eliminar un producto.
@@ -27,7 +27,7 @@ RF8: Los usuarios deben poder asignar proveedores a los productos.
 
 Control de stock:
 RF9: El sistema debe actualizar automáticamente la cantidad en stock de los productos tras su compra o reabastecimiento.
-RF10: El sistema debe enviar notificaciones o alertas cuando un producto alcanza el nivel mínimo de existencias.
+RF10: El sistema debe mostrar una alerta cuando un producto alcanza una cantidad mínima de stock.
 
 Gestión de usuarios y roles:
 RF11: El sistema debe permitir la creación de diferentes tipos de usuarios con permisos específicos (administrador y usuario común).
@@ -35,10 +35,11 @@ RF12: Los administradores deben poder gestionar los roles de los usuarios.
 
 Reportes:
 RF13: El sistema debe generar reportes de productos por categoría, productos bajo stock mínimo y reporte de proveedores.
+RF13: El sistema debe generar reportes de ventas de los productos, los más vendidos entre un periodo de tiempo, los que se agotan más rápido, etc.
 
 
 REQUERIMIENTOS NO FUNCIONALES
-Estos definen las características del sistema que no están relacionadas con funciones específicas, pero que son esenciales para garantizar su calidad y rendimiento.
+Estos definen las características del sistema que no están relacionadas con funciones específicas, sino con su calidad y rendimiento.
 
 Usabilidad:
 RNF1: El sistema debe ser fácil de usar para usuarios sin conocimientos técnicos, con una interfaz gráfica intuitiva y accesible.
