@@ -1,0 +1,60 @@
+## Análisis de Requerimientos
+Este análisis describe las necesidades del sistema, enfocándose en lo que el usuario final espera de la aplicación.
+
+OBJETIVOS DEL SISTEMA:
+El sistema tiene como objetivo permitir a pequeños negocios y particulares gestionar su inventario de manera sencilla y eficiente, con una interfaz intuitiva y funcionalidades que cubren la administración de productos, categorías, proveedores y reportes.
+
+Usuarios del sistema:
+Administrador: Usuario con acceso completo para gestionar el inventario, usuarios, categorías y proveedores.
+Usuario común: Usuario con permisos restringidos, limitado a la consulta de productos y reportes de stock.
+
+REQUERIMIENTOS FUNCIONALES
+Estos son los requerimientos que definen las funciones y comportamientos que el sistema debe ofrecer.
+
+Gestión de productos: 
+RF1: El sistema debe permitir la creación de nuevos productos con campos como nombre, descripción, precio, cantidad en stock, categoría y proveedor.
+RF2: Los usuarios deben poder consultar la lista de productos, filtrando por categoría, proveedor o estado de stock.
+RF3: El sistema debe permitir la modificación de la información de un producto existente.
+RF4: El sistema debe permitir eliminar un producto.
+
+Gestión de categorías:
+RF5: El sistema debe permitir la creación, modificación y eliminación de categorías de productos.
+RF6: Los productos deben estar vinculados a una categoría.
+
+Gestión de proveedores:
+RF7: El sistema debe permitir la creación, modificación y eliminación de proveedores.
+RF8: Los usuarios deben poder asignar proveedores a los productos.
+
+Control de stock:
+RF9: El sistema debe actualizar automáticamente la cantidad en stock de los productos tras su compra o reabastecimiento.
+RF10: El sistema debe enviar notificaciones o alertas cuando un producto alcanza el nivel mínimo de existencias.
+
+Gestión de usuarios y roles:
+RF11: El sistema debe permitir la creación de diferentes tipos de usuarios con permisos específicos (administrador y usuario común).
+RF12: Los administradores deben poder gestionar los roles de los usuarios.
+
+Reportes:
+RF13: El sistema debe generar reportes de productos por categoría, productos bajo stock mínimo y reporte de proveedores.
+
+
+REQUERIMIENTOS NO FUNCIONALES
+Estos definen las características del sistema que no están relacionadas con funciones específicas, pero que son esenciales para garantizar su calidad y rendimiento.
+
+Usabilidad:
+RNF1: El sistema debe ser fácil de usar para usuarios sin conocimientos técnicos, con una interfaz gráfica intuitiva y accesible.
+
+Escalabilidad:
+RNF2: El sistema debe ser capaz de crecer en términos de número de productos, usuarios y proveedores sin perder rendimiento.
+
+Seguridad:
+RNF3: El sistema debe garantizar que solo usuarios autorizados puedan acceder a la aplicación y realizar modificaciones.
+RNF4: Los datos de los usuarios, productos y proveedores deben estar protegidos con contraseñas seguras y cifrado de datos sensibles.
+
+Rendimiento:
+RNF5: Las consultas a la base de datos, especialmente en la búsqueda de productos, deben realizarse en un tiempo mínimo aceptable.
+
+Mantenibilidad:
+RNF6: El sistema debe estar desarrollado con buenas prácticas de programación para facilitar su mantenimiento y futuras actualizaciones.
+
+Disponibilidad:
+RNF7: El sistema debe estar disponible para su uso sin interrupciones durante las horas laborales de los usuarios.
