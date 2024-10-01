@@ -4,6 +4,9 @@ Repositorio para almacenar el proyecto de sistemas de gestión de inventario, pa
 
 ## Versiones
 
+## V3
+-Incluidos los requerimientos funcionales y no funcionales al análisis de los requerimientos
+
 ### V2
 - Creado y añadido el análisis del proyecto y de los requerimientos.
 
