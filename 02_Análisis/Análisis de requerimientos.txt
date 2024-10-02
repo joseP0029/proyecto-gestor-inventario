@@ -57,5 +57,9 @@ Contramedida: Implementar una opción de back-up automática para tener una copi
 Contramedida: Optimizar el programa, y reduciendo el costo de las consultas, reportes.
 
 RECUSOS
-
+Estos son los recursos con los que se cuentan par la realización del proyecto.
+Recurso Humano: 1 desarrollador encargado para la aplicación.
+Recurso Tecnológico: 1 computador con acceso a internet y con el software necesario para el desarorllo.
+Recurso de Tiempo: aproximadamente 2 meses para el desarrollo de la aplicación.
+Recurso Financiero: se va a utilizar software de código abierto para la realización del proyecto, por tanto el costo será 0.
 
