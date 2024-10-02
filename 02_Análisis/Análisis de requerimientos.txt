@@ -1,15 +1,15 @@
 Análisis de Requerimientos
-Este análisis describe las necesidades del sistema, enfocándose en lo que el usuario final espera de la aplicación.
+Este análisis describe las necesidades del sistema, enfocándose en lo que el usuario final espera y necesita de la aplicación final.
 
-OBJETIVOS DEL SISTEMA:
+OBJETIVOS DEL SISTEMA
 El sistema tiene como objetivo permitir a pequeños negocios y particulares gestionar su inventario de manera sencilla y eficiente, con una interfaz intuitiva y funcionalidades que cubren la administración de productos, categorías, proveedores y reportes.
 
 Usuarios del sistema:
-Administrador: Usuario con acceso completo para gestionar el inventario, usuarios, categorías y proveedores.
-Usuario común: Usuario con permisos restringidos, limitado a la consulta de productos y reportes de stock.
+Administrador: Usuario con acceso completo para gestionar el inventario, roles, usuarios, categorías y proveedores.
+Usuario común: Usuario con permisos específicos restringidos, limitado a la consulta de productos y reportes de stock.
 
 REQUERIMIENTOS FUNCIONALES
-Estos son los requerimientos que definen las funciones y comportamientos que el sistema debe ofrecer.
+Estos son los requerimientos que definen las funciones que el sistema debe ofrecer.
 
 Gestión de productos: 
 - RF1: El sistema debe permitir la creación de nuevos productos con campos como nombre, descripción, precio, cantidad en stock, categoría y proveedor, etc.
@@ -41,7 +41,7 @@ Escalabilidad:
 - RNF2: El sistema debe ser capaz de crecer en términos de número de productos, usuarios y proveedores sin perder rendimiento.
 Seguridad:
 - RNF3: El sistema debe garantizar que solo usuarios autorizados puedan acceder a la aplicación y realizar modificaciones.
-- RNF4: Los datos de los usuarios, productos y proveedores deben estar protegidos con contraseñas seguras y cifrado de datos sensibles.
+- RNF4: Los datos sensibles de los usuarios deben estar protegidos con contraseñas y cifrado de datos.
 Rendimiento:
 - RNF5: Las consultas a la base de datos, especialmente en la búsqueda de productos, deben realizarse en un tiempo mínimo aceptable.
 Mantenibilidad:
@@ -50,16 +50,24 @@ Disponibilidad:
 - RNF7: El sistema debe estar disponible para su uso sin interrupciones durante las horas laborales de los usuarios.
 
 RIESGOS Y CONTRAMEDIDAS
-Posiblles riesgos que se peuden materiaializar durante el desaarrollo e lproyecto  o a posterior
+Posiblles riesgos que se peuden materiaializar durante el desarrollo del proyecto o que se descubran posteriormente:
+
 - Riesgo de pérdida de datos, por error humano o de la máquina.
 Contramedida: Implementar una opción de back-up automática para tener una copia disponilbe de los datos en caso de error.
 - Riesgo de bajo rendimiento por uso excesivo de la memoria.
-Contramedida: Optimizar el programa, y reduciendo el costo de las consultas, reportes.
+Contramedida: Optimizar el programa, y reduciendo el costo de las consultas, reportes y transacciones de grandes cantidades de datos.
 
 RECUSOS
-Estos son los recursos con los que se cuentan par la realización del proyecto.
-Recurso Humano: 1 desarrollador encargado para la aplicación.
-Recurso Tecnológico: 1 computador con acceso a internet y con el software necesario para el desarorllo.
-Recurso de Tiempo: aproximadamente 2 meses para el desarrollo de la aplicación.
-Recurso Financiero: se va a utilizar software de código abierto para la realización del proyecto, por tanto el costo será 0.
+Estos son los recursos con los que se cuentan para la realización del proyecto:
+
+- Recurso Humano: El personal para la aplicación cuenta con una persona encargada del desarrollo completo de la aplicación. Con los conocimientos necesarios en el software a utilizar para llevar a cabo exitosamente el desarrollo.
+- Recurso Tecnológico: Las tecnologias para el proyecto se dividen en 2:
+-- El hardware: Un computador con el hardware necesario para ejecutar el software necesario para el proyecto.
+-- El software: Para llevar a cabo el desarrollo de la aplicación se requiere de herramientas de desarrollo como los IDEs para la programación y un gestor de base de datos para la administración de la información.
+- Recurso de Tiempo: El tiempo estimado para el desarrollo de la aplicación es de 2 meses.
+- Recurso Económico: El desarrollo de la aplicación se llevara a cabo con el uso de software de uso libre, por tanto el costo esperado es nulo.
+
+
+
+
 
