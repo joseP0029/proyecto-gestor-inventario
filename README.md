@@ -9,7 +9,7 @@ Repositorio para almacenar el proyecto de sistemas de gestión de inventario, pa
 - Creado y añadido el análisis del proyecto y de los requerimientos.
 - Incluidos los requerimientos funcionales y no funcionales al análisis de los requerimientos.
 - Incluidos los riesgos y contramedidas.
-- Incluidos los recursos disponibles.
+- Incluidos los recursos necesarios.
 
 ### V1
 - Creada y añadida la estructura de carpetas para el proyecto.
