@@ -5,6 +5,14 @@ Repositorio para almacenar el proyecto de sistema de gestión de inventario, par
 ## Versiones
 Cambios generales del proyecto:
 
+### V4
+- Añadido el desarrollo del proyecto
+  
+### V3
+- Creado el diseño de la arquitectura del proyecto
+- Creado el diagrama de clases
+- Añadido un mockup y la implementación de la interfaz de gestión
+
 ### V2
 - Creado y añadido el análisis del proyecto y de los requerimientos.
 - Incluidos los requerimientos funcionales y no funcionales al análisis de los requerimientos.
