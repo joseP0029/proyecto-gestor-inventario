@@ -1,4 +1,4 @@
-###Justificación del Diseño####
+###Justificación del Diseño###
 
 Las decisiones de diseño tomadas en este proyecto han sido guiadas por los principios de simplicidad, asegurando que el sistema de gestión de inventario cumpla con los requisitos de manera eficiente. A continuación, se detalla la justificación de las tecnologías y consideraciones de seguridad adoptadas en este proyecto: 
 
